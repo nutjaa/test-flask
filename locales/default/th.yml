@@ -1,0 +1,148 @@
+doctor_generic_header_workhour: ทุกวัน 08:00 - 20:00
+doctor_generic_link_title_home: หน้าหลัก
+doctor_generic_link_title_services: บริการ
+doctor_generic_link_title_aboutus: เกี่ยวกับเรา
+doctor_generic_link_title_contact_us: ติดต่อเรา
+doctor_generic_link_title_volunteer_doctor_team: สนใจเป็น “ทีมเพื่อนหมอ”
+doctor_generic_link_title_privacy_policy: นโยบายความเป็นส่วนตัว
+doctor_generic_link_title_term_and_condition: เงื่อนไขการให้บริการ
+doctor_generic_link_title_download_doctor_friend: ดาวน์โหลด ”เพื่อนหมอ”
+doctor_generic_link_title_start_doctor_friend: เริ่มต้นใช้งาน
+doctor_generic_link_playstore: https://play_google_com/store/apps/details?id=com_mindnovate_doctorfriend&hl=th
+doctor_generic_link_appstore: https://apps_apple_com/th/app/doctorfriend/id1535728684
+doctor_generic_doctorfriend: เพื่อนหมอ
+doctor_generic_copyright: doctorfriend2021
+doctor_feature_our_main_services_title: ตัวอย่างการให้บริการ
+doctor_feature_link_title_advanced_care: ปรึกษาอาการเจ็บปวยเบื้องต้น
+doctor_feature_link_title_internal_medicine: ปรึกษาการใช้ยา หรือผลข้างเคียง
+doctor_feature_link_title_internal_childorelderlycare: ปรึกษาการดูแลเด็ก หรือผู้สูงอายุ
+doctor_feature_link_title_internal_healthcare: ให้คำแนะนำการดูแลสุขภาพ
+doctor_generic_link_title_story: แนวคิด | ความเป็นมาของไอเดีย
+doctor_chat_message_just_send: Just sent you %attachmendType%
+doctor_firebase_notification_new_chat: New chat message from %name%
+doctor_user_form_username_label: Username
+doctor_user_form_password_label: Password
+doctor_user_form_firstname_label: First Name
+doctor_user_form_lastname_label: Last Name
+doctor_generic_remember_me: Remember me
+doctor_generic_login: Login
+doctor_user_form_role_label: Role
+doctor_user_form_enabled_label: Enabled
+doctor_generic_label_action: Action
+doctor_generic_button_create_new: Create New
+doctor_generic_label_active: Active
+doctor_generic_label_inactive: Inactive
+doctor_user_form_role_choices_ROLE_USER: Patient
+doctor_user_form_role_choices_ROLE_PATIENT: Patient
+doctor_user_form_role_choices_ROLE_DOCTOR: Doctor
+doctor_user_form_role_choices_ROLE_SUPER_ADMIN: Super Admin
+doctor_user_button_edit_user: Edit User
+doctor_user_button_edit_user_medical_profile: Edit Profile
+doctor_user_form_first_name_label: First Name
+doctor_user_form_last_name_label: Last Name
+doctor_user_form_phone_label: Phone
+doctor_user_form_email_label: Email
+doctor_user_form_weight_label: Weight
+doctor_user_form_height_label: Height
+doctor_user_form_congenital_disease_label: Congenital Disease
+doctor_user_form_drug_allergy_label: Drug Allergy
+doctor_user_form_average_reply_label: Average Reply Time
+doctor_user_heading_change_password: Change Password
+doctor_user_form_password_confirmation_label: Password Confirmation
+doctor_user_form_search_by_username_label: Search by username
+doctor_user_form_doctor_profile_label: Doctor Profile
+doctor_user_form_doctor_id_label: Doctor ID
+doctor_user_form_introduction_label: Introduction
+doctor_generic_button_update: Update
+doctor_generic_button_save: Save
+doctor_generic_button_search: Search
+doctor_privacy_policy_content_heading: นโยบายความเป็นส่วนตัว
+doctor_term_and_condition_content_heading: ข้อกำหนดและเงื่อนไข
+doctor_home_title: หน้าหลัก
+doctor_home_top_content_heading: แอปพลิเคชันที่จะให้คุณพูดคุยทุกปัญหาสุขภาพแบบเป็นกันเองกับคุณหมอ
+doctor_home_top_content_body: ดาวน์โหลดเพื่อเริ่มใช้งานได้แล้ววันนี้
+doctor_home_top_content_download: ดาวน์โหลดแอปเพื่อนหมอ
+doctor_home_body_doing_what_heading: “เพื่อนหมอ” ทำอะไร
+doctor_home_body_1_heading: รับฟังปัญหาสุขภาพทุกที่ทุกเวลา
+doctor_home_body_1_body: ไม่ว่าคุณจะอยู่ที่ไหนเราจะให้คำปรึกษากับคุณและครอบครัวทุกที่ทุกเวลาที่คุณต้องการ
+doctor_home_body_2_heading: ปรึกษาได้ทุกปัญหา<br/>กับทีม “เพื่อนหมอ”
+doctor_home_body_2_body: เรามีเพื่อนหมอที่พร้อมให้คำปรึกษา ในหลากหลายอาการที่พบได้
+doctor_home_body_2_button_title: สนใจเป็นทีม “เพื่อนหมอ”
+doctor_home_body_3_heading: ประวัติการรักษาเป็นของคุณ
+doctor_home_body_3_body: เพื่อให้คุณเก็บไว้เป็นประวัติการรักษาในการพบแพทย์ในอนาคต นอกจากนั้น ระบบจะรักษาข้อมูลของคุณเป็นความลับอีกด้วย
+doctor_home_body_4_heading: วิธีใช้งาน “เพื่อนหมอ”
+doctor_home_body_4_col1_heading: ดาวน์โหลดแอป “เพื่อนหมอ”
+doctor_home_body_4_col1_body: ลงทะเบียนง่ายด้วยการใช้เบอร์โทรศัพท์<br/>หรือบัญชีการใช้งาน Social Media
+doctor_home_body_4_col2_heading: บอกอาการหรือปัญหาสุขภาพ
+doctor_home_body_4_col2_body: เพียงเล่าอาการป่วยเราจะหาหมอที่มีความชำนาญให้คุณ
+doctor_home_body_4_col3_heading: รับคำปรึกษากับหมอ
+doctor_home_body_4_col3_body: ชำระค่าบริกรการและรับคำปรึกษาจากทีมงานเพื่อนหมอเป็นเวลา 5 วัน
+doctor_home_body_5_heading: ให้เราได้ดูแลคุณ
+doctor_home_body_5_body: จุดเริ่มต้นของความสัมพันธ์ที่ดี<br/>ให้คุณหมอเป็นเพื่อน คอยดูแลสุขภาพคุณ
+doctor_home_body_5_scan1: สแกน QR Code
+doctor_home_body_5_scan2: เพื่อโหลดแอปเพื่อนหมอ
+doctor_home_facebook_post1_heading: อาการหน้ามืดขณะลุกขึ้นยืน
+doctor_home_facebook_post1_body: เป็นบ่อยมาก เป็นเกื่อบทุกครั้งที่ลุกนั่งหรือลุกยืน หน้ามืดจนหมดสติ แม้เพียงไม่วินาที ปัจจัยเสี่ยง___
+doctor_home_facebook_post1_date: 26/04/2021
+doctor_home_facebook_post1_image: /uikit/assets/img/facebook-post-1_png
+doctor_home_facebook_post2_heading: PM 2_5 มีอันตรายอย่างไร
+doctor_home_facebook_post2_body: เนื่อจากฝุ่นมีขนาดเล็กมากจึงสามารถผ่านตัวกรองของร่างกายเช่นจมูกได้ เช่น ขนจมูก ลงไปในถุงลมในปอดได้ เมื่อถูกสะสมไปนานๆ__
+doctor_home_facebook_post2_date: 26/04/2021
+doctor_home_facebook_post2_image: /uikit/assets/img/facebook-post-2_png
+doctor_home_facebook_post3_heading: ภัยเงียบที่มาพร้อมอากาศเย็น
+doctor_home_facebook_post3_body: อากาศเย็นช่วงนี้ ต้องระวังภัยเงียบที่มาพร้อมกับความเย็น “โรคปอดบวม” มีอาการอย่างไร รักษาอย่างไร ป้องกันอย่างไร วันนี้เพื่อนหมอจะมาเล่าให้ฟังกัน
+doctor_home_facebook_post3_date: 26/04/2021
+doctor_home_facebook_post3_image: /uikit/assets/img/facebook-post-3_png
+doctor_otp_message: "รหัส OTP: %otp% ใช้สำหรับ เพื่อนหมอ (ภายใน 5 นาที) รหัสอ้างอิง: %ref%"
+doctor_otp_verify_message: รหัสใช้ครั้งเดียวเพื่อยืนยันตัวตน ก่อนรับคำปรึกษาจากคุณหมอ
+doctor_otp_forget_password_message: "คุณได้ทำการแจ้งปัญหาการเข้าสู่ระบบ สำหรับบัญชี ชื่อ %username% คุณสามารถ ตั้งรหัสผ่านใหม่ได้ด้วยตนเอง"
+doctor_otp_sender: Doctor Friend
+doctor_otp_mail_subject: เพื่อนหมอ OTP
+doctor_otp_validation_username_not_found: ไม่พบหมายเลยโทรศัพท์ หรือ อีเมล ในระบบ
+doctor_otp_validation_username_exist: หมายเลขโทรศัพท์นี้ได้ถูกใช้งานแล้ว
+doctor_firebase_notification_chat_room_new_title: "New case request"
+doctor_firebase_notification_chat_room_new_body: "Hi there is new case request click to view"
+doctor_firebase_notification_chat_room_accepted_title: "Your case request has been accepted"
+doctor_firebase_notification_chat_room_accepted_body: "Your case request has been accepted at %date%"
+doctor_firebase_notification_chat_room_expired_title: "One of your case already expired"
+doctor_firebase_notification_chat_room_expired_body: "Click here to send your case summary"
+doctor_chat_welcome_message_line_1: สวัสดีครับ
+doctor_chat_welcome_message_line_2: ยินดีต้อนรับสู่เพื่อนหมอ
+doctor_chat_welcome_message_line_3: คุณสามารถถามคำถามได้เลยครับ จะมีหมอในทีมเพื่อนหมอมารับเคสให้นะครับ
+doctor_chat_welcome_message_line_4: เนื่องจากยังอยู่ในช่วงทดสอบระบบ จึงยังไม่มีค่าใช้จ่าย และ ปัจจุบันหมอในทีมเป็นหมออาสา การตอบอาจจะเร็วหรือช้า ขึ้นกับจำนวนหมออาสาและปริมาณคำถามในขณะนั้นนะครับ
+doctor_doctor_register_top_content_heading: มาร่วมเป็นส่วนหนึ่งในการสร้างบริการสุขภาพที่ดีให้ทุกคนเข้าถึงได้กับเพื่อนหมอ
+doctor_doctor_register_top_content_button_label: ร่วมเป็นเพื่อนหมอ
+doctor_doctor_register_body1_heading: แพลตฟอร์ม “เพื่อนหมอ” ดีอย่างไร
+doctor_doctor_register_body1_body: แพลตฟอร์มออนไลน์ที่จะทำให้คุณรักษาผู้ป่วยได้ทุกที่ทุกเวลา
+doctor_doctor_register_body1_how_good_1_title: การให้คำปรึกษา<br/>แบบ Chat base
+doctor_doctor_register_body1_how_good_2_title: ทำงานที่ไหนก็ได้<br/>เมื่อไรก็ได้
+doctor_doctor_register_body1_how_good_3_title: ไม่ต้อง Standby<br/>รอรับเคส
+doctor_doctor_register_body1_how_good_4_title: หมอสามารถเลือกรับ<br/>เคสได้เอง
+doctor_doctor_register_body1_how_good_5_title: สามารถให้คำปรึกษา<br/>ได้หลายเคสพร้อมกัน
+doctor_doctor_register_body2_heading: อยากเป็นทีมเพื่อนหมอต้องทำอย่างไร
+doctor_doctor_register_body2_description1: เพียงมีเอกสารใบประกอบโรคศิลป์ของแพทยสภา ก็สามารถร่วมเป็นส่วนหนึ่งของทีมเราได้แล้ว
+doctor_doctor_register_body2_description2: หลังจากได้ทำการกรอกแบบฟอร์มเรียบร้อยแล้วทางทีมเพื่อนหมอจะทำการตรวจสอบข้อมูลและ ทำการพิจารณาประวัติของผู้สมัคร
+doctor_doctor_register_body2_description3: "**หากคุณได้รับคัดเลือกเข้าทีม คุณจะได้รับคู่มือการใช้งานและบัญชีผู้ใช้งานผ่านทางอีเมล"
+doctor_doctor_register_referral_code_title: กรอกรหัสเชิญ เพื่อสมัครเป็นทีมเพื่อนหมอ
+doctor_doctor_register_referral_code_body: “รหัสเชิญ” ได้จากการเชิญจากคุณหมอที่ใช้ระบบเพื่อนหมอเท่านั้น สามารถติดต่อได้ทาง <a class="text-grey" href="mailto:joinus@doctorfriend_io">joinus@doctorfriend_io</a>
+doctor_doctor_register_referral_code_register: ร่วมเป็นเพื่อนหมอ
+doctor_doctor_register_referral_code_input_place_holder: กรอกรหัสเชิญ
+doctor_doctor_register_referral_code_input_error: รหัสเชิญไม่ถูกต้อง
+doctor_doctor_register_success_title: ขอบคุณที่สมัครเป็นทีมเพื่อนหมอกับเรา
+doctor_doctor_register_success_body: เราได้รับข้อมูลของคุณแล้ว ทีมงานใช้ระยะเวลาตรวจสอบภายใน 1-2 วัน<br/>และจะแจ้งข้อมูลบัญชีการใช้งานผ่านทางอีเมล
+doctor_doctor_register_success_back: กลับหน้าหลัก
+doctor_doctor_register_form_header: แบบฟอร์มการสมัคร
+doctor_doctor_register_form_description: กรุณากรอกข้อมูลให้ถูกต้องและเป็นความจริงเท่านั้นเพราะข้อมูลเหล่านี้จะใช้ในการพิจารณาเพื่อคัดเลือกเข้าร่วมทีมเพื่อนหมอ
+doctor_doctor_register_form_warning_message: หากพบการนำข้อมูลอันเป็นเท็จเข้าระบบ เราจะตัดสิทธิ์การพิจารณาและดำเนินการทางกฎหมายให้ถึงที่สุด
+doctor_doctor_register_form_first_name_label: ชื่อ
+doctor_doctor_register_form_last_name_label: นามสกุล
+doctor_doctor_register_form_email_label: อีเมล
+doctor_doctor_register_form_phone_label: เบอร์โทรศัพท์
+doctor_doctor_register_form_doctor_license_label: ภาพถ่ายเอกสารใบประบอกโรคศิลป์
+doctor_doctor_register_form_doctor_license_support_description: สกุลไฟล์ที่รองรับ ขนาด
+doctor_doctor_register_form_selfie_with_id_label: รูปถ่ายพร้อมบัตรประชาชน
+doctor_doctor_register_form_selfie_with_id_support_description: กรุณาถ่ายรูปพร้อมด้วยบัตรประชาชน
+doctor_doctor_register_form_button_label: ส่งใบสมัคร
+doctor_doctor_register_form_button_approve_label: อนุมัติ
+doctor_doctor_register_form2_header: ฝากประวัติไว้กับเรา
+doctor_doctor_register_form2_description: หากคุณสนใจร่วมทีมเพื่อนหมอกับเราแล้วเราจะรีบติดต่อกลับไป

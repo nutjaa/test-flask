@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="th">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        {% assets "home_css" %}
+            <link rel="stylesheet" href="{{ ASSET_URL }}" />
+        {% endassets %}
+        <title>{% block title %}{% endblock %}</title>
+
+        <link rel="icon" type="image/png" href="/build/images/favicon.png">
+    </head>
+    <body class="df">
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="DWSpXyM0"></script>
+
+        <div class="container">
+            <nav   class="navbar navbar-expand-lg navbar-light pb-4">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/">
+                        <img src="{{url_for('static', filename='images/logo.png')}}" alt=""  height="55" class="d-inline-block align-text-top">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse pl-3" id="mainNavbar">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-2">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="/doctor-registration">{{ 'doctor_generic_link_title_volunteer_doctor_team'|trans }}</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/term-and-conditions">{{ 'doctor_generic_link_title_term_and_condition'|trans }}</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/privacy-policy">{{ 'doctor_generic_link_title_privacy_policy'|trans }}</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">{{ 'doctor_generic_link_title_contact_us'|trans }}</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex d-lg-none d-xl-block">
+                            <a class="btn btn-outline-info fs-4 fw-light" href="/mobile" >{{ 'doctor_generic_link_title_start_doctor_friend'|trans }}</a>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        {% block body %}{% endblock %}
+
+        <footer>
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-md-auto  text-center order-md-2">
+                        <ul class="list-inline py-lg-4 pt-4">
+                            <li class="list-inline-item pe-3">
+                                <a href="https://apps.apple.com/th/app/doctorfriend/id1535728684"><img src="{{url_for('static', filename='images/apple-icon.png')}}" /></a>
+                            </li>
+                            <li class="list-inline-item pe-3">
+                                <a href="https://play.google.com/store/apps/details?id=com.mindnovate.doctorfriend&hl=th"><img src="{{url_for('static', filename='images/android-icon.png')}}" /></a>
+                            </li>
+                            <li class="list-inline-item pe-3">
+                                <a href="https://www.facebook.com/doctorfriend.io/"><img src="{{url_for('static', filename='images/facebook-icon.png')}}" /></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-auto  text-center order-md-1">
+                        <ul class="list-inline py-lg-4 py-2">
+                            <li class="list-inline-item">
+                                <h5 class="text-grey fw-light">© {{ 'doctor_generic_copyright'|trans }}</h5>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div class="go-top"><i class="fa fa-chevron-up"></i></div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js" integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        {% block js %}{% endblock %}
+    </body>
+</html>

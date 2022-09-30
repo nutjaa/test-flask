@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css?family=Kanit:400,300&subset=thai,latin");
+
+
+@import "dashboard/bootstrap/functions";
+
+// Custom Variables
+@import "home/custom/variables";
+
+
+// Bootstrap Core
+@import "dashboard/bootstrap/bootstrap";
+
+
+
+body {
+    font-family: 'Kanit';
+}
+
+
+.df .bg-primary {
+    background-color: #233757 !important;
+}
+
+.df .text-primary {
+    color: #1E375A !important;
+}
+
+.df .text-grey {
+    color: #989898 !important;
+}
+
+
+.df .btn-info {
+    background-color: #1CA3AD;
+    border-color:  #1CA3AD;
+    color: #fff;
+}
+
+.df .btn-outline-info {
+    border-color:  #1CA3AD;
+    color: #1CA3AD;
+}
+
+.df .btn-outline-info:hover {
+    background-color: #1CA3AD;
+    border-color:  #1CA3AD;
+    color: #fff;
+}
+
+.df .navbar-light .navbar-toggler[aria-expanded="false"] .navbar-toggler-icon {
+    background-image: url('../img/menu-icon.svg');
+}
+
+.df .navbar-light .navbar-toggler[aria-expanded="true"]  .navbar-toggler-icon {
+    background-image: url('../img/menu-close.svg');
+    background-size: 50% 50%;
+}
+
+.df .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.df .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #1CA3AD;
+    text-decoration: underline;
+}
+
+.df .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #1CA3AD;
+    text-decoration: underline;
+}
+
+
+.df .navbar-light .navbar-toggler {
+    border: none;
+}
+
+.text-primary-dark {
+    color: #454D58 !important;
+}
+
+.text-grey {
+    color: #A7A7A7 !important;
+}
+
+.text-blue {
+    color: #69DFE7 !important;
+}
+
+.go-top {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 17px;
+}
+
+/*================================================
+Go Top CSS
+=================================================*/
+.go-top {
+    position: fixed;
+    cursor: pointer;
+    top: 50%;
+    right: 15px;
+    background: #e1f9fa;
+    z-index: 4;
+    width: 40px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: .9s;
+    transition: .9s;
+    color: #69DFE7;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+.go-top.active {
+    top: 98%;
+    -webkit-transform: translateY(-98%);
+            transform: translateY(-98%);
+    opacity: 1;
+    visibility: visible;
+}
+
+.go-top:hover, .go-top:focus {
+    color: #ffffff;
+    background-color: #69DFE7;
+}
+
+
+
+
+
+.body-content-invert .body-content-left {
+    padding-top: 20px;
+}
+
+.body-content-invert .body-content-right {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#body-content-1 {
+    background: url('../img/body1-bg.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top center;
+}
+
+#body-content-2 {
+    background: url('../img/body2-bg.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top center;
+}
+
+
+
+.post-box {
+    border: 2px solid rgba(105, 223, 231, 0.34);
+    box-sizing: border-box;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(105, 223, 231, 0.2);
+    border-radius: 16px;
+    margin-bottom: 15px;
+}
+
+#body-content-5 {
+    background-color: #F2F5F8;
+}
+
+.scan-qr-box {
+    padding: 24px;
+    background: #FFFFFF;
+    border: 4px solid #233757;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+
+footer {
+    background-color: #F7F7F7;
+}
+
+
+/* doctor register */
+.df .doctor-register-body{
+    background: url('../img/doctor-register-bg2.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top center;
+}
+
+.form-label.required:after {
+    content:"*";
+    color:red;
+  }
+
+@include media-breakpoint-down(md) {
+    .full-width-md {
+        width: 100%;
+    }
+}

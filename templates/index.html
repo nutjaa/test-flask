@@ -1,0 +1,105 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div id="top-content" class="shadow">
+    <div class="container px-0">
+        <div class="row">
+            <div class="col-lg-6 order-lg-2"><img class="img-fluid mx-auto d-block" src="{{url_for('static', filename='images/doctor-register-bg.png')}}"/></div>
+            <div class="col-lg-6 text-center text-lg-start order-lg-1 align-self-center pt-4 pt-lg-0  ps-lg-5 px-4" id="top-content-left">
+                <h1 class="display-5 text-primary ">{{ 'doctor_doctor_register_top_content_heading'|trans }}</h1>
+                <div class="d-grid d-lg-block py-3 pb-4 mb-2">
+                    <a class="btn btn-info mt-2 fs-2 fw-light" href="#invitation-form">{{ 'doctor_doctor_register_top_content_button_label'|trans }}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="doctor-register-body pb-5">
+    <div class="container gx-xxl-5 text-center">
+        <div class="body-1 pt-4">
+            <h1 class="text-primary display-5 pt-5 fw-normal">{{ 'doctor_doctor_register_body1_heading'|trans }}</h1>
+            <h2 class="text-grey fw-light pt-2">{{ 'doctor_doctor_register_body1_body'|trans }}</h2>
+            <div class="row mx-lg-4 pt-4">
+                <div class="col-lg col-12 mb-4">
+                    <div class="bg-white rounded-4 shadow-sm pb-2">
+                        <div style="height: 184px;" class="position-relative" >
+                            <img class="position-absolute top-50 start-50 translate-middle" src="{{url_for('static', filename='images/good-of-platform-1.svg')}}" />
+                        </div>
+                        <div class="bg-info rounded-3 mb-3 mx-auto" style="width: 40px; height: 4px;"></div>
+                        <p class="text-primary fs-4 fw-light">{{ 'doctor_doctor_register_body1_how_good_1_title'|trans }}</p>
+                    </div>
+                </div>
+                <div class="col-lg col-12 mb-4">
+                    <div class="bg-white rounded-4 shadow-sm pb-2">
+                        <div style="height: 184px;" class="position-relative" >
+                            <img class="position-absolute top-50 start-50 translate-middle" src="{{url_for('static', filename='images/good-of-platform-2.svg')}}" />
+                        </div>
+                        <div class="bg-info rounded-3 mb-3 mx-auto" style="width: 40px; height: 4px;"></div>
+                        <p class="text-primary fs-4 fw-light">{{ 'doctor_doctor_register_body1_how_good_2_title'|trans }}</p>
+                    </div>
+                </div>
+                <div class="col-lg col-12 mb-4">
+                    <div class="bg-white rounded-4 shadow-sm pb-2">
+                        <div style="height: 184px;" class="position-relative" >
+                            <img class="position-absolute top-50 start-50 translate-middle" src="{{url_for('static', filename='images/good-of-platform-3.svg')}}" />
+                        </div>
+                        <div class="bg-info rounded-3 mb-3 mx-auto" style="width: 40px; height: 4px;"></div>
+                        <p class="text-primary fs-4 fw-light">{{ 'doctor_doctor_register_body1_how_good_3_title'|trans }}</p>
+                    </div>
+                </div>
+                <div class="col-lg col-12 mb-4">
+                    <div class="bg-white rounded-4 shadow-sm pb-2">
+                        <div style="height: 184px;" class="position-relative" >
+                            <img class="position-absolute top-50 start-50 translate-middle" src="{{url_for('static', filename='images/good-of-platform-4.svg')}}" />
+                        </div>
+                        <div class="bg-info rounded-3 mb-3 mx-auto" style="width: 40px; height: 4px;"></div>
+                        <p class="text-primary fs-4 fw-light">{{ 'doctor_doctor_register_body1_how_good_4_title'|trans }}</p>
+                    </div>
+                </div>
+                <div class="col-lg col-12 mb-4">
+                    <div class="bg-white rounded-4 shadow-sm pb-2">
+                        <div style="height: 184px;" class="position-relative" >
+                            <img class="position-absolute top-50 start-50 translate-middle" src="{{url_for('static', filename='images/good-of-platform-5.svg')}}" />
+                        </div>
+                        <div class="bg-info rounded-3 mb-3 mx-auto" style="width: 40px; height: 4px;"></div>
+                        <p class="text-primary fs-4 fw-light">{{ 'doctor_doctor_register_body1_how_good_5_title'|trans }}</p>
+                    </div>
+                </div>
+            </div>
+            <h1 class="text-primary display-5 mt-5 py-5">{{ 'doctor_doctor_register_body2_heading'|trans }}</h1>
+            <div class="row">
+                <div class="col-lg-6 "><img class="img-fluid mx-auto d-block" src="{{url_for('static', filename='images/doctor-register-bg3.png')}}"/></div>
+                <div class="col-lg-6 text-center text-lg-start order-lg-1 align-self-center " id="top-content-left">
+                    <p class="fs-2 fw-light text-primary ">{{ 'doctor_doctor_register_body2_description1'|trans }}</p>
+                    <p class="fs-4 fw-light text-grey ">{{ 'doctor_doctor_register_body2_description2'|trans }}</p>
+                    <p class="fs-4 fw-light text-primary  pt-3">{{ 'doctor_doctor_register_body2_description3'|trans }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="referral-code-form" style="background-color: #F7F7F7;">
+    <div class="container gx-xxl-5 py-4">
+        <div class="row">
+            <div class="col-lg-6">
+                <p class="fs-2 fw-light text-primary text-center text-lg-start">{{ 'doctor_doctor_register_referral_code_title'|trans }}</p>
+                <p class="fs-5 fw-light text-grey text-center text-lg-start">{{ 'doctor_doctor_register_referral_code_body'|trans }}</p>
+            </div>
+            <div class="col-lg-6">
+                <form id="invitation-form" class="pt-3 needs-validation" method="GET" action="" novalidate>
+                    <div class="row">
+                        <div class="col-lg-8 col-md-7">
+                            <input id="code" name="invitationCode" class="form-control form-control-lg" placeHolder="{{ 'doctor_doctor_register_referral_code_input_place_holder'|trans }}" required/>
+                        </div>
+                        <div class="col-lg-4  col-md-5 py-3 py-lg-0 py-md-0">
+                            <button type="submit" class="btn btn-info btn-lg form-control" >{{ 'doctor_doctor_register_referral_code_register'|trans }}</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
